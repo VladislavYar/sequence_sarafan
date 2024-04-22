@@ -12,7 +12,7 @@ def validate_positive_number(value):
 
 
 def parser_command_line() -> ArgumentParser:
-    """Парсера командной строки."""
+    """Парсер командной строки."""
     parser = ArgumentParser(description='Вывод последовательности чисел')
     parser.add_argument(
         '-c',
